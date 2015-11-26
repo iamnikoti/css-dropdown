@@ -1,0 +1,38 @@
+ul.css-dropdown {
+  list-style: none;
+  padding: 0;
+}
+
+ul.css-dropdown > li {
+  float: left;
+}
+
+ul.css-dropdown > li:first-child {
+  float: left;
+}
+
+ul.css-dropdown > li > ul {
+  position: absolute;
+  display: none;
+  list-style: none;
+  padding: 0;
+  background-color: #EEE;
+}
+
+ul.css-dropdown > li:hover {
+  background-color: #DDD;
+}
+
+ul.css-dropdown > li:hover > ul {
+  display: block;
+}
+
+ul.css-dropdown li > a {
+  display: block;
+  padding: 10px 20px;
+  min-width: 240px;
+}
+
+ul.css-dropdown li > a:hover {
+  background-color: #DDD;
+}
